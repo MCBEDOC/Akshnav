@@ -7,7 +7,7 @@
     <ProjectGuid>{665C2870-4EDA-4BF7-9C5C-070D5D5FBBE7}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AssemblyName>MCenters</AssemblyName>
-    <ApplicationVersion>0.0.0.0</ApplicationVersion>
+    <ApplicationVersion>1.0.0.2</ApplicationVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
