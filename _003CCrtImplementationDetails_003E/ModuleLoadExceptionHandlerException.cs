@@ -1,21 +1,15 @@
-﻿// Decompiled with JetBrains decompiler
-// Type: <CrtImplementationDetails>.ModuleLoadExceptionHandlerException
-// Assembly: MCenters, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-// MVID: 45CFC87E-86C0-4035-8A46-F8737ED6CA8B
-// Assembly location: C:\Users\Misi\Downloads\akshnav_3.exe
-
-using System;
+﻿using System;
 using System.Runtime.Serialization;
 using System.Security;
 
 #nullable disable
-namespace \u003CCrtImplementationDetails\u003E
+namespace <CrtImplementationDetails>
 {
   [Serializable]
   internal class ModuleLoadExceptionHandlerException : ModuleLoadException
   {
-    private const string formatString = "\n{0}: {1}\n--- Start of primary exception ---\n{2}\n--- End of primary exception ---\n\n--- Start of nested exception ---\n{3}\n--- End of nested exception ---\n";
-    private Exception \u003Cbacking_store\u003ENestedException;
+    private const string formatString = "%n{0}: {1}%n--- Start of primary exception ---%n{2}%n--- End of primary exception ---%n%n--- Start of nested exception ---%n{3}%n--- End of nested exception ---%n";
+    private Exception <backing_store>NestedException;
 
     protected ModuleLoadExceptionHandlerException(SerializationInfo info, StreamingContext context)
       : base(info, context)
@@ -37,8 +31,8 @@ namespace \u003CCrtImplementationDetails\u003E
 
     public Exception NestedException
     {
-      get => this.\u003Cbacking_store\u003ENestedException;
-      set => this.\u003Cbacking_store\u003ENestedException = value;
+      get => this.<backing_store>NestedException;
+      set => this.<backing_store>NestedException = value;
     }
 
     public override string ToString()
@@ -54,7 +48,7 @@ namespace \u003CCrtImplementationDetails\u003E
       objArray[2] = (object) str4;
       string str5 = str2 == null ? string.Empty : str2;
       objArray[3] = (object) str5;
-      string str6 = string.Format("\n{0}: {1}\n--- Start of primary exception ---\n{2}\n--- End of primary exception ---\n\n--- Start of nested exception ---\n{3}\n--- End of nested exception ---\n", objArray);
+      string str6 = string.Format("%n{0}: {1}%n--- Start of primary exception ---%n{2}%n--- End of primary exception ---%n%n--- Start of nested exception ---%n{3}%n--- End of nested exception ---%n", objArray);
       GC.KeepAlive((object) this);
       return str6;
     }

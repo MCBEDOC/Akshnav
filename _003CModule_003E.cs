@@ -1,11 +1,5 @@
-﻿// Decompiled with JetBrains decompiler
-// Type: <Module>
-// Assembly: MCenters, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-// MVID: 45CFC87E-86C0-4035-8A46-F8737ED6CA8B
-// Assembly location: C:\Users\Misi\Downloads\akshnav_3.exe
-
-using \u003CCppImplementationDetails\u003E;
-using \u003CCrtImplementationDetails\u003E;
+﻿using <CppImplementationDetails>;
+using <CrtImplementationDetails>;
 using M_Centers;
 using mcenters;
 using System;
@@ -19,75 +13,75 @@ using System.Security.Permissions;
 using System.Threading;
 
 #nullable disable
-internal class \u003CModule\u003E
+internal class <Module>
 {
-  public static __FnPtr<void ()> __m2mep\u0040\u003FMainLogic\u0040\u0040\u0024\u0024FYAXXZ;
-  internal static int __\u0040\u0040_PchSym_\u004000\u0040UkiltiznnrmtUzkkhUhlfixvUivklhUnxvmgvihUivhlfixvhUcGEUmlmLfdkLnlwvUkilxvhhOlyq\u00404B2008FD98C1DD4;
-  public static __FnPtr<void (char*)> __m2mep\u0040\u003FAddLog\u0040\u0040\u0024\u0024FYAXPEB_W\u0040Z;
-  public static __FnPtr<void (char*, char*)> __m2mep\u0040\u003FAddLog\u0040\u0040\u0024\u0024FYAXPEB_W0\u0040Z;
-  public static __FnPtr<void (char*)> __m2mep\u0040\u003FAddError\u0040\u0040\u0024\u0024FYAXPEB_W\u0040Z;
+  public static __FnPtr<void ()> __m2mep@?MainLogic@@$$FYAXXZ;
+  internal static int __@@_PchSym_@00@UkiltiznnrmtUzkkhUhlfixvUivklhUnxvmgvihUivhlfixvhUcGEUmlmLfdkLnlwvUkilxvhhOlyq@4B2008FD98C1DD4;
+  public static __FnPtr<void (char*)> __m2mep@?AddLog@@$$FYAXPEB_W@Z;
+  public static __FnPtr<void (char*, char*)> __m2mep@?AddLog@@$$FYAXPEB_W0@Z;
+  public static __FnPtr<void (char*)> __m2mep@?AddError@@$$FYAXPEB_W@Z;
   internal static __s_GUID _GUID_cb2f6723_ab3a_11d2_9c40_00c04fa30a3e;
   internal static __s_GUID _GUID_cb2f6722_ab3a_11d2_9c40_00c04fa30a3e;
   [FixedAddressValueType]
-  internal static int \u003FUninitialized\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2HA;
-  internal static __FnPtr<void ()> \u003FA0xeb4f7d22\u002E\u003FUninitialized\u0024initializer\u0024\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2P6MXXZEA;
+  internal static int ?Uninitialized@CurrentDomain@<CrtImplementationDetails>@@$$Q2HA;
+  internal static __FnPtr<void ()> ?A0xeb4f7d22.?Uninitialized$initializer$@CurrentDomain@<CrtImplementationDetails>@@$$Q2P6MXXZEA;
   [FixedAddressValueType]
-  internal static Progress \u003FInitializedNative\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2W4Progress\u00402\u0040A;
-  internal static __FnPtr<void ()> \u003FA0xeb4f7d22\u002E\u003FInitializedNative\u0024initializer\u0024\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2P6MXXZEA;
+  internal static Progress ?InitializedNative@CurrentDomain@<CrtImplementationDetails>@@$$Q2W4Progress@2@A;
+  internal static __FnPtr<void ()> ?A0xeb4f7d22.?InitializedNative$initializer$@CurrentDomain@<CrtImplementationDetails>@@$$Q2P6MXXZEA;
   internal static __s_GUID _GUID_90f1a06c_7712_4762_86b5_7a5eba6bdb02;
   internal static __s_GUID _GUID_90f1a06e_7712_4762_86b5_7a5eba6bdb02;
   [FixedAddressValueType]
-  internal static Progress \u003FInitializedPerAppDomain\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2W4Progress\u00402\u0040A;
-  internal static bool \u003FEntered\u0040DefaultDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u00402_NA;
-  internal static TriBool \u003FhasNative\u0040DefaultDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u00400W4TriBool\u00402\u0040A;
-  internal static bool \u003FInitializedPerProcess\u0040DefaultDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u00402_NA;
-  internal static int \u003FCount\u0040AllDomains\u0040\u003CCrtImplementationDetails\u003E\u0040\u00402HA;
+  internal static Progress ?InitializedPerAppDomain@CurrentDomain@<CrtImplementationDetails>@@$$Q2W4Progress@2@A;
+  internal static bool ?Entered@DefaultDomain@<CrtImplementationDetails>@@2_NA;
+  internal static TriBool ?hasNative@DefaultDomain@<CrtImplementationDetails>@@0W4TriBool@2@A;
+  internal static bool ?InitializedPerProcess@DefaultDomain@<CrtImplementationDetails>@@2_NA;
+  internal static int ?Count@AllDomains@<CrtImplementationDetails>@@2HA;
   [FixedAddressValueType]
-  internal static int \u003FInitialized\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2HA;
-  internal static bool \u003FInitializedNativeFromCCTOR\u0040DefaultDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u00402_NA;
+  internal static int ?Initialized@CurrentDomain@<CrtImplementationDetails>@@$$Q2HA;
+  internal static bool ?InitializedNativeFromCCTOR@DefaultDomain@<CrtImplementationDetails>@@2_NA;
   [FixedAddressValueType]
-  internal static bool \u003FIsDefaultDomain\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2_NA;
+  internal static bool ?IsDefaultDomain@CurrentDomain@<CrtImplementationDetails>@@$$Q2_NA;
   [FixedAddressValueType]
-  internal static Progress \u003FInitializedVtables\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2W4Progress\u00402\u0040A;
-  internal static bool \u003FInitializedNative\u0040DefaultDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u00402_NA;
+  internal static Progress ?InitializedVtables@CurrentDomain@<CrtImplementationDetails>@@$$Q2W4Progress@2@A;
+  internal static bool ?InitializedNative@DefaultDomain@<CrtImplementationDetails>@@2_NA;
   [FixedAddressValueType]
-  internal static Progress \u003FInitializedPerProcess\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2W4Progress\u00402\u0040A;
-  internal static TriBool \u003FhasPerProcess\u0040DefaultDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u00400W4TriBool\u00402\u0040A;
-  internal static \u0024ArrayType\u0024\u0024\u0024BY00Q6MPEBXXZ __xc_mp_z;
-  internal static \u0024ArrayType\u0024\u0024\u0024BY00Q6MPEBXXZ __xi_vt_z;
-  internal static __FnPtr<void ()> \u003FA0xeb4f7d22\u002E\u003FInitializedPerProcess\u0024initializer\u0024\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2P6MXXZEA;
-  internal static \u0024ArrayType\u0024\u0024\u0024BY00Q6MPEBXXZ __xc_ma_a;
-  internal static \u0024ArrayType\u0024\u0024\u0024BY00Q6MPEBXXZ __xc_ma_z;
-  internal static __FnPtr<void ()> \u003FA0xeb4f7d22\u002E\u003FInitializedPerAppDomain\u0024initializer\u0024\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2P6MXXZEA;
-  internal static \u0024ArrayType\u0024\u0024\u0024BY00Q6MPEBXXZ __xi_vt_a;
-  internal static __FnPtr<void ()> \u003FA0xeb4f7d22\u002E\u003FInitialized\u0024initializer\u0024\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2P6MXXZEA;
-  internal static \u0024ArrayType\u0024\u0024\u0024BY00Q6MPEBXXZ __xc_mp_a;
-  internal static __FnPtr<void ()> \u003FA0xeb4f7d22\u002E\u003FInitializedVtables\u0024initializer\u0024\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2P6MXXZEA;
-  internal static __FnPtr<void ()> \u003FA0xeb4f7d22\u002E\u003FIsDefaultDomain\u0024initializer\u0024\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2P6MXXZEA;
-  public static __FnPtr<int (void*)> __m2mep\u0040\u003FDoNothing\u0040DefaultDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024FCAJPEAX\u0040Z;
-  public static __FnPtr<int (void*)> __m2mep\u0040\u003F_UninitializeDefaultDomain\u0040LanguageSupport\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024FCAJPEAX\u0040Z;
-  public static unsafe int** __unep\u0040\u003FDoNothing\u0040DefaultDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024FCAJPEAX\u0040Z;
-  public static unsafe int** __unep\u0040\u003F_UninitializeDefaultDomain\u0040LanguageSupport\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024FCAJPEAX\u0040Z;
-  internal static unsafe __FnPtr<void ()>* \u003FA0xdf32f105\u002E__onexitbegin_m;
-  internal static ulong \u003FA0xdf32f105\u002E__exit_list_size;
+  internal static Progress ?InitializedPerProcess@CurrentDomain@<CrtImplementationDetails>@@$$Q2W4Progress@2@A;
+  internal static TriBool ?hasPerProcess@DefaultDomain@<CrtImplementationDetails>@@0W4TriBool@2@A;
+  internal static $ArrayType$$$BY00Q6MPEBXXZ __xc_mp_z;
+  internal static $ArrayType$$$BY00Q6MPEBXXZ __xi_vt_z;
+  internal static __FnPtr<void ()> ?A0xeb4f7d22.?InitializedPerProcess$initializer$@CurrentDomain@<CrtImplementationDetails>@@$$Q2P6MXXZEA;
+  internal static $ArrayType$$$BY00Q6MPEBXXZ __xc_ma_a;
+  internal static $ArrayType$$$BY00Q6MPEBXXZ __xc_ma_z;
+  internal static __FnPtr<void ()> ?A0xeb4f7d22.?InitializedPerAppDomain$initializer$@CurrentDomain@<CrtImplementationDetails>@@$$Q2P6MXXZEA;
+  internal static $ArrayType$$$BY00Q6MPEBXXZ __xi_vt_a;
+  internal static __FnPtr<void ()> ?A0xeb4f7d22.?Initialized$initializer$@CurrentDomain@<CrtImplementationDetails>@@$$Q2P6MXXZEA;
+  internal static $ArrayType$$$BY00Q6MPEBXXZ __xc_mp_a;
+  internal static __FnPtr<void ()> ?A0xeb4f7d22.?InitializedVtables$initializer$@CurrentDomain@<CrtImplementationDetails>@@$$Q2P6MXXZEA;
+  internal static __FnPtr<void ()> ?A0xeb4f7d22.?IsDefaultDomain$initializer$@CurrentDomain@<CrtImplementationDetails>@@$$Q2P6MXXZEA;
+  public static __FnPtr<int (void*)> __m2mep@?DoNothing@DefaultDomain@<CrtImplementationDetails>@@$$FCAJPEAX@Z;
+  public static __FnPtr<int (void*)> __m2mep@?_UninitializeDefaultDomain@LanguageSupport@<CrtImplementationDetails>@@$$FCAJPEAX@Z;
+  public static unsafe int** __unep@?DoNothing@DefaultDomain@<CrtImplementationDetails>@@$$FCAJPEAX@Z;
+  public static unsafe int** __unep@?_UninitializeDefaultDomain@LanguageSupport@<CrtImplementationDetails>@@$$FCAJPEAX@Z;
+  internal static unsafe __FnPtr<void ()>* ?A0xdf32f105.__onexitbegin_m;
+  internal static ulong ?A0xdf32f105.__exit_list_size;
   [FixedAddressValueType]
   internal static unsafe __FnPtr<void ()>* __onexitend_app_domain;
   [FixedAddressValueType]
-  internal static unsafe void* \u003F_lock\u0040AtExitLock\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q0PEAXEA;
+  internal static unsafe void* ?_lock@AtExitLock@<CrtImplementationDetails>@@$$Q0PEAXEA;
   [FixedAddressValueType]
-  internal static int \u003F_ref_count\u0040AtExitLock\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q0HA;
-  internal static unsafe __FnPtr<void ()>* \u003FA0xdf32f105\u002E__onexitend_m;
+  internal static int ?_ref_count@AtExitLock@<CrtImplementationDetails>@@$$Q0HA;
+  internal static unsafe __FnPtr<void ()>* ?A0xdf32f105.__onexitend_m;
   [FixedAddressValueType]
   internal static ulong __exit_list_size_app_domain;
   [FixedAddressValueType]
   internal static unsafe __FnPtr<void ()>* __onexitbegin_app_domain;
-  internal static \u0024ArrayType\u0024\u0024\u0024BY0A\u0040P6AHXZ __xi_z;
+  internal static $ArrayType$$$BY0A@P6AHXZ __xi_z;
   internal static __scrt_native_startup_state __scrt_current_native_startup_state;
   internal static unsafe void* __scrt_native_startup_lock;
-  internal static \u0024ArrayType\u0024\u0024\u0024BY0A\u0040P6AXXZ __xc_a;
-  internal static \u0024ArrayType\u0024\u0024\u0024BY0A\u0040P6AHXZ __xi_a;
+  internal static $ArrayType$$$BY0A@P6AXXZ __xc_a;
+  internal static $ArrayType$$$BY0A@P6AHXZ __xi_a;
   internal static uint __scrt_native_dllmain_reason;
-  internal static \u0024ArrayType\u0024\u0024\u0024BY0A\u0040P6AXXZ __xc_z;
+  internal static $ArrayType$$$BY0A@P6AXXZ __xc_z;
 
   [STAThread]
   internal static void MainLogic()
@@ -107,34 +101,34 @@ internal class \u003CModule\u003E
 
   internal static unsafe void AddError(char* value) => Logger.AddError(new string(value));
 
-  internal static void \u003CCrtImplementationDetails\u003E\u002EThrowNestedModuleLoadException(
+  internal static void <CrtImplementationDetails>.ThrowNestedModuleLoadException(
     Exception innerException,
     Exception nestedException)
   {
-    throw new ModuleLoadExceptionHandlerException("A nested exception occurred after the primary exception that caused the C++ module to fail to load.\n", innerException, nestedException);
+    throw new ModuleLoadExceptionHandlerException("A nested exception occurred after the primary exception that caused the C++ module to fail to load.%n", innerException, nestedException);
   }
 
-  internal static void \u003CCrtImplementationDetails\u003E\u002EThrowModuleLoadException(
+  internal static void <CrtImplementationDetails>.ThrowModuleLoadException(
     string errorMessage)
   {
     throw new ModuleLoadException(errorMessage);
   }
 
-  internal static void \u003CCrtImplementationDetails\u003E\u002EThrowModuleLoadException(
+  internal static void <CrtImplementationDetails>.ThrowModuleLoadException(
     string errorMessage,
     Exception innerException)
   {
     throw new ModuleLoadException(errorMessage, innerException);
   }
 
-  internal static void \u003CCrtImplementationDetails\u003E\u002ERegisterModuleUninitializer(
+  internal static void <CrtImplementationDetails>.RegisterModuleUninitializer(
     EventHandler handler)
   {
     ModuleUninitializer._ModuleUninitializer.AddHandler(handler);
   }
 
   [SecuritySafeCritical]
-  internal static unsafe Guid \u003CCrtImplementationDetails\u003E\u002EFromGUID(_GUID* guid)
+  internal static unsafe Guid <CrtImplementationDetails>.FromGUID(_GUID* guid)
   {
     return new Guid((uint) *(int*) guid, *(ushort*) ((IntPtr) guid + 4L), *(ushort*) ((IntPtr) guid + 6L), *(byte*) ((IntPtr) guid + 8L), *(byte*) ((IntPtr) guid + 9L), *(byte*) ((IntPtr) guid + 10L), *(byte*) ((IntPtr) guid + 11L), *(byte*) ((IntPtr) guid + 12L), *(byte*) ((IntPtr) guid + 13L), *(byte*) ((IntPtr) guid + 14L), *(byte*) ((IntPtr) guid + 15L));
   }
@@ -146,8 +140,8 @@ internal class \u003CModule\u003E
     int defaultAppdomain;
     try
     {
-      Guid riid = \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002EFromGUID((_GUID*) &\u003CModule\u003E._GUID_cb2f6722_ab3a_11d2_9c40_00c04fa30a3e);
-      icorRuntimeHostPtr1 = (ICorRuntimeHost*) RuntimeEnvironment.GetRuntimeInterfaceAsIntPtr(\u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002EFromGUID((_GUID*) &\u003CModule\u003E._GUID_cb2f6723_ab3a_11d2_9c40_00c04fa30a3e), riid).ToPointer();
+      Guid riid = <Module>.<CrtImplementationDetails>.FromGUID((_GUID*) &<Module>._GUID_cb2f6722_ab3a_11d2_9c40_00c04fa30a3e);
+      icorRuntimeHostPtr1 = (ICorRuntimeHost*) RuntimeEnvironment.GetRuntimeInterfaceAsIntPtr(<Module>.<CrtImplementationDetails>.FromGUID((_GUID*) &<Module>._GUID_cb2f6723_ab3a_11d2_9c40_00c04fa30a3e), riid).ToPointer();
       goto label_4;
     }
     catch (Exception ex)
@@ -177,10 +171,10 @@ label_5:
   }
 
   [SecurityCritical]
-  internal static unsafe AppDomain \u003CCrtImplementationDetails\u003E\u002EGetDefaultDomain()
+  internal static unsafe AppDomain <CrtImplementationDetails>.GetDefaultDomain()
   {
     IUnknown* ppUnk = (IUnknown*) 0L;
-    int defaultAppdomain = \u003CModule\u003E.__get_default_appdomain(&ppUnk);
+    int defaultAppdomain = <Module>.__get_default_appdomain(&ppUnk);
     if (defaultAppdomain >= 0)
     {
       try
@@ -189,7 +183,7 @@ label_5:
       }
       finally
       {
-        \u003CModule\u003E.__release_appdomain(ppUnk);
+        <Module>.__release_appdomain(ppUnk);
       }
     }
     else
@@ -200,15 +194,15 @@ label_5:
   }
 
   [SecurityCritical]
-  internal static unsafe void \u003CCrtImplementationDetails\u003E\u002EDoCallBackInDefaultDomain(
+  internal static unsafe void <CrtImplementationDetails>.DoCallBackInDefaultDomain(
     __FnPtr<int (void*)> function,
     void* cookie)
   {
-    Guid riid = \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002EFromGUID((_GUID*) &\u003CModule\u003E._GUID_90f1a06c_7712_4762_86b5_7a5eba6bdb02);
-    ICLRRuntimeHost* pointer = (ICLRRuntimeHost*) RuntimeEnvironment.GetRuntimeInterfaceAsIntPtr(\u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002EFromGUID((_GUID*) &\u003CModule\u003E._GUID_90f1a06e_7712_4762_86b5_7a5eba6bdb02), riid).ToPointer();
+    Guid riid = <Module>.<CrtImplementationDetails>.FromGUID((_GUID*) &<Module>._GUID_90f1a06c_7712_4762_86b5_7a5eba6bdb02);
+    ICLRRuntimeHost* pointer = (ICLRRuntimeHost*) RuntimeEnvironment.GetRuntimeInterfaceAsIntPtr(<Module>.<CrtImplementationDetails>.FromGUID((_GUID*) &<Module>._GUID_90f1a06e_7712_4762_86b5_7a5eba6bdb02), riid).ToPointer();
     try
     {
-      AppDomain defaultDomain = \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002EGetDefaultDomain();
+      AppDomain defaultDomain = <Module>.<CrtImplementationDetails>.GetDefaultDomain();
       long num1 = *(long*) (*(long*) pointer + 64L);
       uint id = (uint) defaultDomain.Id;
       ICLRRuntimeHost* iclrRuntimeHostPtr = pointer;
@@ -235,7 +229,7 @@ label_5:
   [return: MarshalAs(UnmanagedType.U1)]
   internal static bool __scrt_is_safe_for_managed_code()
   {
-    switch (\u003CModule\u003E.__scrt_native_dllmain_reason)
+    switch (<Module>.__scrt_native_dllmain_reason)
     {
       case 0:
       case 1:
@@ -246,7 +240,7 @@ label_5:
   }
 
   [SecuritySafeCritical]
-  internal static unsafe int \u003CCrtImplementationDetails\u003E\u002EDefaultDomain\u002EDoNothing(
+  internal static unsafe int <CrtImplementationDetails>.DefaultDomain.DoNothing(
     void* cookie)
   {
     GC.KeepAlive((object) int.MaxValue);
@@ -255,204 +249,204 @@ label_5:
 
   [SecuritySafeCritical]
   [return: MarshalAs(UnmanagedType.U1)]
-  internal static unsafe bool \u003CCrtImplementationDetails\u003E\u002EDefaultDomain\u002EHasPerProcess()
+  internal static unsafe bool <CrtImplementationDetails>.DefaultDomain.HasPerProcess()
   {
-    if (\u003CModule\u003E.\u003FhasPerProcess\u0040DefaultDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u00400W4TriBool\u00402\u0040A != (TriBool) 2)
-      return \u003CModule\u003E.\u003FhasPerProcess\u0040DefaultDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u00400W4TriBool\u00402\u0040A == (TriBool) -1;
-    void** voidPtr = (void**) &\u003CModule\u003E.__xc_mp_a;
-    if (ref \u003CModule\u003E.__xc_mp_a < ref \u003CModule\u003E.__xc_mp_z)
+    if (<Module>.?hasPerProcess@DefaultDomain@<CrtImplementationDetails>@@0W4TriBool@2@A != (TriBool) 2)
+      return <Module>.?hasPerProcess@DefaultDomain@<CrtImplementationDetails>@@0W4TriBool@2@A == (TriBool) -1;
+    void** voidPtr = (void**) &<Module>.__xc_mp_a;
+    if (ref <Module>.__xc_mp_a < ref <Module>.__xc_mp_z)
     {
       while (*(long*) voidPtr == 0L)
       {
         voidPtr += 8L;
-        if ((IntPtr) voidPtr >= ref \u003CModule\u003E.__xc_mp_z)
+        if ((IntPtr) voidPtr >= ref <Module>.__xc_mp_z)
           goto label_5;
       }
-      \u003CModule\u003E.\u003FhasPerProcess\u0040DefaultDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u00400W4TriBool\u00402\u0040A = (TriBool) -1;
+      <Module>.?hasPerProcess@DefaultDomain@<CrtImplementationDetails>@@0W4TriBool@2@A = (TriBool) -1;
       return true;
     }
 label_5:
-    \u003CModule\u003E.\u003FhasPerProcess\u0040DefaultDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u00400W4TriBool\u00402\u0040A = (TriBool) 0;
+    <Module>.?hasPerProcess@DefaultDomain@<CrtImplementationDetails>@@0W4TriBool@2@A = (TriBool) 0;
     return false;
   }
 
   [SecuritySafeCritical]
   [return: MarshalAs(UnmanagedType.U1)]
-  internal static unsafe bool \u003CCrtImplementationDetails\u003E\u002EDefaultDomain\u002EHasNative()
+  internal static unsafe bool <CrtImplementationDetails>.DefaultDomain.HasNative()
   {
-    if (\u003CModule\u003E.\u003FhasNative\u0040DefaultDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u00400W4TriBool\u00402\u0040A != (TriBool) 2)
-      return \u003CModule\u003E.\u003FhasNative\u0040DefaultDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u00400W4TriBool\u00402\u0040A == (TriBool) -1;
-    void** voidPtr1 = (void**) &\u003CModule\u003E.__xi_a;
-    if (ref \u003CModule\u003E.__xi_a < ref \u003CModule\u003E.__xi_z)
+    if (<Module>.?hasNative@DefaultDomain@<CrtImplementationDetails>@@0W4TriBool@2@A != (TriBool) 2)
+      return <Module>.?hasNative@DefaultDomain@<CrtImplementationDetails>@@0W4TriBool@2@A == (TriBool) -1;
+    void** voidPtr1 = (void**) &<Module>.__xi_a;
+    if (ref <Module>.__xi_a < ref <Module>.__xi_z)
     {
       while (*(long*) voidPtr1 == 0L)
       {
         voidPtr1 += 8L;
-        if ((IntPtr) voidPtr1 >= ref \u003CModule\u003E.__xi_z)
+        if ((IntPtr) voidPtr1 >= ref <Module>.__xi_z)
           goto label_5;
       }
-      \u003CModule\u003E.\u003FhasNative\u0040DefaultDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u00400W4TriBool\u00402\u0040A = (TriBool) -1;
+      <Module>.?hasNative@DefaultDomain@<CrtImplementationDetails>@@0W4TriBool@2@A = (TriBool) -1;
       return true;
     }
 label_5:
-    void** voidPtr2 = (void**) &\u003CModule\u003E.__xc_a;
-    if (ref \u003CModule\u003E.__xc_a < ref \u003CModule\u003E.__xc_z)
+    void** voidPtr2 = (void**) &<Module>.__xc_a;
+    if (ref <Module>.__xc_a < ref <Module>.__xc_z)
     {
       while (*(long*) voidPtr2 == 0L)
       {
         voidPtr2 += 8L;
-        if ((IntPtr) voidPtr2 >= ref \u003CModule\u003E.__xc_z)
+        if ((IntPtr) voidPtr2 >= ref <Module>.__xc_z)
           goto label_9;
       }
-      \u003CModule\u003E.\u003FhasNative\u0040DefaultDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u00400W4TriBool\u00402\u0040A = (TriBool) -1;
+      <Module>.?hasNative@DefaultDomain@<CrtImplementationDetails>@@0W4TriBool@2@A = (TriBool) -1;
       return true;
     }
 label_9:
-    \u003CModule\u003E.\u003FhasNative\u0040DefaultDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u00400W4TriBool\u00402\u0040A = (TriBool) 0;
+    <Module>.?hasNative@DefaultDomain@<CrtImplementationDetails>@@0W4TriBool@2@A = (TriBool) 0;
     return false;
   }
 
   [SecuritySafeCritical]
   [return: MarshalAs(UnmanagedType.U1)]
-  internal static bool \u003CCrtImplementationDetails\u003E\u002EDefaultDomain\u002ENeedsInitialization()
+  internal static bool <CrtImplementationDetails>.DefaultDomain.NeedsInitialization()
   {
-    return \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002EDefaultDomain\u002EHasPerProcess() && !\u003CModule\u003E.\u003FInitializedPerProcess\u0040DefaultDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u00402_NA || \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002EDefaultDomain\u002EHasNative() && !\u003CModule\u003E.\u003FInitializedNative\u0040DefaultDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u00402_NA && \u003CModule\u003E.__scrt_current_native_startup_state == (__scrt_native_startup_state) 0;
+    return <Module>.<CrtImplementationDetails>.DefaultDomain.HasPerProcess() && !<Module>.?InitializedPerProcess@DefaultDomain@<CrtImplementationDetails>@@2_NA || <Module>.<CrtImplementationDetails>.DefaultDomain.HasNative() && !<Module>.?InitializedNative@DefaultDomain@<CrtImplementationDetails>@@2_NA && <Module>.__scrt_current_native_startup_state == (__scrt_native_startup_state) 0;
   }
 
   [return: MarshalAs(UnmanagedType.U1)]
-  internal static bool \u003CCrtImplementationDetails\u003E\u002EDefaultDomain\u002ENeedsUninitialization()
+  internal static bool <CrtImplementationDetails>.DefaultDomain.NeedsUninitialization()
   {
-    return \u003CModule\u003E.\u003FEntered\u0040DefaultDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u00402_NA;
+    return <Module>.?Entered@DefaultDomain@<CrtImplementationDetails>@@2_NA;
   }
 
   [SecurityCritical]
-  internal static unsafe void \u003CCrtImplementationDetails\u003E\u002EDefaultDomain\u002EInitialize()
+  internal static unsafe void <CrtImplementationDetails>.DefaultDomain.Initialize()
   {
     // ISSUE: cast to a function pointer type
-    \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002EDoCallBackInDefaultDomain((__FnPtr<int (void*)>) (IntPtr) \u003CModule\u003E.__unep\u0040\u003FDoNothing\u0040DefaultDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024FCAJPEAX\u0040Z, (void*) 0L);
+    <Module>.<CrtImplementationDetails>.DoCallBackInDefaultDomain((__FnPtr<int (void*)>) (IntPtr) <Module>.__unep@?DoNothing@DefaultDomain@<CrtImplementationDetails>@@$$FCAJPEAX@Z, (void*) 0L);
   }
 
-  internal static void \u003FA0xeb4f7d22\u002E\u003F\u003F__E\u003FInitialized\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2HA\u0040\u0040YMXXZ()
+  internal static void ?A0xeb4f7d22.??__E?Initialized@CurrentDomain@<CrtImplementationDetails>@@$$Q2HA@@YMXXZ()
   {
-    \u003CModule\u003E.\u003FInitialized\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2HA = 0;
+    <Module>.?Initialized@CurrentDomain@<CrtImplementationDetails>@@$$Q2HA = 0;
   }
 
-  internal static void \u003FA0xeb4f7d22\u002E\u003F\u003F__E\u003FUninitialized\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2HA\u0040\u0040YMXXZ()
+  internal static void ?A0xeb4f7d22.??__E?Uninitialized@CurrentDomain@<CrtImplementationDetails>@@$$Q2HA@@YMXXZ()
   {
-    \u003CModule\u003E.\u003FUninitialized\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2HA = 0;
+    <Module>.?Uninitialized@CurrentDomain@<CrtImplementationDetails>@@$$Q2HA = 0;
   }
 
-  internal static void \u003FA0xeb4f7d22\u002E\u003F\u003F__E\u003FIsDefaultDomain\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2_NA\u0040\u0040YMXXZ()
+  internal static void ?A0xeb4f7d22.??__E?IsDefaultDomain@CurrentDomain@<CrtImplementationDetails>@@$$Q2_NA@@YMXXZ()
   {
-    \u003CModule\u003E.\u003FIsDefaultDomain\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2_NA = false;
+    <Module>.?IsDefaultDomain@CurrentDomain@<CrtImplementationDetails>@@$$Q2_NA = false;
   }
 
-  internal static void \u003FA0xeb4f7d22\u002E\u003F\u003F__E\u003FInitializedVtables\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2W4Progress\u00402\u0040A\u0040\u0040YMXXZ()
+  internal static void ?A0xeb4f7d22.??__E?InitializedVtables@CurrentDomain@<CrtImplementationDetails>@@$$Q2W4Progress@2@A@@YMXXZ()
   {
-    \u003CModule\u003E.\u003FInitializedVtables\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2W4Progress\u00402\u0040A = (Progress) 0;
+    <Module>.?InitializedVtables@CurrentDomain@<CrtImplementationDetails>@@$$Q2W4Progress@2@A = (Progress) 0;
   }
 
-  internal static void \u003FA0xeb4f7d22\u002E\u003F\u003F__E\u003FInitializedNative\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2W4Progress\u00402\u0040A\u0040\u0040YMXXZ()
+  internal static void ?A0xeb4f7d22.??__E?InitializedNative@CurrentDomain@<CrtImplementationDetails>@@$$Q2W4Progress@2@A@@YMXXZ()
   {
-    \u003CModule\u003E.\u003FInitializedNative\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2W4Progress\u00402\u0040A = (Progress) 0;
+    <Module>.?InitializedNative@CurrentDomain@<CrtImplementationDetails>@@$$Q2W4Progress@2@A = (Progress) 0;
   }
 
-  internal static void \u003FA0xeb4f7d22\u002E\u003F\u003F__E\u003FInitializedPerProcess\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2W4Progress\u00402\u0040A\u0040\u0040YMXXZ()
+  internal static void ?A0xeb4f7d22.??__E?InitializedPerProcess@CurrentDomain@<CrtImplementationDetails>@@$$Q2W4Progress@2@A@@YMXXZ()
   {
-    \u003CModule\u003E.\u003FInitializedPerProcess\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2W4Progress\u00402\u0040A = (Progress) 0;
+    <Module>.?InitializedPerProcess@CurrentDomain@<CrtImplementationDetails>@@$$Q2W4Progress@2@A = (Progress) 0;
   }
 
-  internal static void \u003FA0xeb4f7d22\u002E\u003F\u003F__E\u003FInitializedPerAppDomain\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2W4Progress\u00402\u0040A\u0040\u0040YMXXZ()
+  internal static void ?A0xeb4f7d22.??__E?InitializedPerAppDomain@CurrentDomain@<CrtImplementationDetails>@@$$Q2W4Progress@2@A@@YMXXZ()
   {
-    \u003CModule\u003E.\u003FInitializedPerAppDomain\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2W4Progress\u00402\u0040A = (Progress) 0;
-  }
-
-  [SecuritySafeCritical]
-  [DebuggerStepThrough]
-  internal static unsafe void \u003CCrtImplementationDetails\u003E\u002ELanguageSupport\u002EInitializeVtables(
-    [In] LanguageSupport* obj0)
-  {
-    \u003CModule\u003E.gcroot\u003CSystem\u003A\u003AString\u0020\u005E\u003E\u002E\u003D((gcroot\u003CSystem\u003A\u003AString\u0020\u005E\u003E*) obj0, "The C++ module failed to load during vtable initialization.\n");
-    \u003CModule\u003E.\u003FInitializedVtables\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2W4Progress\u00402\u0040A = (Progress) 1;
-    \u003CModule\u003E._initterm_m((__FnPtr<void* ()>*) &\u003CModule\u003E.__xi_vt_a, (__FnPtr<void* ()>*) &\u003CModule\u003E.__xi_vt_z);
-    \u003CModule\u003E.\u003FInitializedVtables\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2W4Progress\u00402\u0040A = (Progress) 2;
-  }
-
-  [SecuritySafeCritical]
-  internal static unsafe void \u003CCrtImplementationDetails\u003E\u002ELanguageSupport\u002EInitializeDefaultAppDomain(
-    [In] LanguageSupport* obj0)
-  {
-    \u003CModule\u003E.gcroot\u003CSystem\u003A\u003AString\u0020\u005E\u003E\u002E\u003D((gcroot\u003CSystem\u003A\u003AString\u0020\u005E\u003E*) obj0, "The C++ module failed to load while attempting to initialize the default appdomain.\n");
-    \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002EDefaultDomain\u002EInitialize();
+    <Module>.?InitializedPerAppDomain@CurrentDomain@<CrtImplementationDetails>@@$$Q2W4Progress@2@A = (Progress) 0;
   }
 
   [SecuritySafeCritical]
   [DebuggerStepThrough]
-  internal static unsafe void \u003CCrtImplementationDetails\u003E\u002ELanguageSupport\u002EInitializeNative(
+  internal static unsafe void <CrtImplementationDetails>.LanguageSupport.InitializeVtables(
     [In] LanguageSupport* obj0)
   {
-    \u003CModule\u003E.gcroot\u003CSystem\u003A\u003AString\u0020\u005E\u003E\u002E\u003D((gcroot\u003CSystem\u003A\u003AString\u0020\u005E\u003E*) obj0, "The C++ module failed to load during native initialization.\n");
-    \u003CModule\u003E.__security_init_cookie();
-    \u003CModule\u003E.\u003FInitializedNative\u0040DefaultDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u00402_NA = true;
-    if (!\u003CModule\u003E.__scrt_is_safe_for_managed_code())
-      \u003CModule\u003E.abort();
-    if (\u003CModule\u003E.__scrt_current_native_startup_state == (__scrt_native_startup_state) 1)
-      \u003CModule\u003E.abort();
-    if (\u003CModule\u003E.__scrt_current_native_startup_state != (__scrt_native_startup_state) 0)
+    <Module>.gcroot<System::String ^>.=((gcroot<System::String ^>*) obj0, "The C++ module failed to load during vtable initialization.%n");
+    <Module>.?InitializedVtables@CurrentDomain@<CrtImplementationDetails>@@$$Q2W4Progress@2@A = (Progress) 1;
+    <Module>._initterm_m((__FnPtr<void* ()>*) &<Module>.__xi_vt_a, (__FnPtr<void* ()>*) &<Module>.__xi_vt_z);
+    <Module>.?InitializedVtables@CurrentDomain@<CrtImplementationDetails>@@$$Q2W4Progress@2@A = (Progress) 2;
+  }
+
+  [SecuritySafeCritical]
+  internal static unsafe void <CrtImplementationDetails>.LanguageSupport.InitializeDefaultAppDomain(
+    [In] LanguageSupport* obj0)
+  {
+    <Module>.gcroot<System::String ^>.=((gcroot<System::String ^>*) obj0, "The C++ module failed to load while attempting to initialize the default appdomain.%n");
+    <Module>.<CrtImplementationDetails>.DefaultDomain.Initialize();
+  }
+
+  [SecuritySafeCritical]
+  [DebuggerStepThrough]
+  internal static unsafe void <CrtImplementationDetails>.LanguageSupport.InitializeNative(
+    [In] LanguageSupport* obj0)
+  {
+    <Module>.gcroot<System::String ^>.=((gcroot<System::String ^>*) obj0, "The C++ module failed to load during native initialization.%n");
+    <Module>.__security_init_cookie();
+    <Module>.?InitializedNative@DefaultDomain@<CrtImplementationDetails>@@2_NA = true;
+    if (!<Module>.__scrt_is_safe_for_managed_code())
+      <Module>.abort();
+    if (<Module>.__scrt_current_native_startup_state == (__scrt_native_startup_state) 1)
+      <Module>.abort();
+    if (<Module>.__scrt_current_native_startup_state != (__scrt_native_startup_state) 0)
       return;
-    \u003CModule\u003E.\u003FInitializedNative\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2W4Progress\u00402\u0040A = (Progress) 1;
-    \u003CModule\u003E.__scrt_current_native_startup_state = (__scrt_native_startup_state) 1;
-    if (\u003CModule\u003E._initterm_e((__FnPtr<int ()>*) &\u003CModule\u003E.__xi_a, (__FnPtr<int ()>*) &\u003CModule\u003E.__xi_z) != 0)
-      \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002EThrowModuleLoadException(\u003CModule\u003E.gcroot\u003CSystem\u003A\u003AString\u0020\u005E\u003E\u002E\u002EPE\u0024AAVString\u0040System\u0040\u0040((gcroot\u003CSystem\u003A\u003AString\u0020\u005E\u003E*) obj0));
-    \u003CModule\u003E._initterm((__FnPtr<void ()>*) &\u003CModule\u003E.__xc_a, (__FnPtr<void ()>*) &\u003CModule\u003E.__xc_z);
-    \u003CModule\u003E.__scrt_current_native_startup_state = (__scrt_native_startup_state) 2;
-    \u003CModule\u003E.\u003FInitializedNativeFromCCTOR\u0040DefaultDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u00402_NA = true;
-    \u003CModule\u003E.\u003FInitializedNative\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2W4Progress\u00402\u0040A = (Progress) 2;
+    <Module>.?InitializedNative@CurrentDomain@<CrtImplementationDetails>@@$$Q2W4Progress@2@A = (Progress) 1;
+    <Module>.__scrt_current_native_startup_state = (__scrt_native_startup_state) 1;
+    if (<Module>._initterm_e((__FnPtr<int ()>*) &<Module>.__xi_a, (__FnPtr<int ()>*) &<Module>.__xi_z) != 0)
+      <Module>.<CrtImplementationDetails>.ThrowModuleLoadException(<Module>.gcroot<System::String ^>..PE$AAVString@System@@((gcroot<System::String ^>*) obj0));
+    <Module>._initterm((__FnPtr<void ()>*) &<Module>.__xc_a, (__FnPtr<void ()>*) &<Module>.__xc_z);
+    <Module>.__scrt_current_native_startup_state = (__scrt_native_startup_state) 2;
+    <Module>.?InitializedNativeFromCCTOR@DefaultDomain@<CrtImplementationDetails>@@2_NA = true;
+    <Module>.?InitializedNative@CurrentDomain@<CrtImplementationDetails>@@$$Q2W4Progress@2@A = (Progress) 2;
   }
 
   [DebuggerStepThrough]
   [SecurityCritical]
-  internal static unsafe void \u003CCrtImplementationDetails\u003E\u002ELanguageSupport\u002EInitializePerProcess(
+  internal static unsafe void <CrtImplementationDetails>.LanguageSupport.InitializePerProcess(
     [In] LanguageSupport* obj0)
   {
-    \u003CModule\u003E.gcroot\u003CSystem\u003A\u003AString\u0020\u005E\u003E\u002E\u003D((gcroot\u003CSystem\u003A\u003AString\u0020\u005E\u003E*) obj0, "The C++ module failed to load during process initialization.\n");
-    \u003CModule\u003E.\u003FInitializedPerProcess\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2W4Progress\u00402\u0040A = (Progress) 1;
-    \u003CModule\u003E._initatexit_m();
-    \u003CModule\u003E._initterm_m((__FnPtr<void* ()>*) &\u003CModule\u003E.__xc_mp_a, (__FnPtr<void* ()>*) &\u003CModule\u003E.__xc_mp_z);
-    \u003CModule\u003E.\u003FInitializedPerProcess\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2W4Progress\u00402\u0040A = (Progress) 2;
-    \u003CModule\u003E.\u003FInitializedPerProcess\u0040DefaultDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u00402_NA = true;
+    <Module>.gcroot<System::String ^>.=((gcroot<System::String ^>*) obj0, "The C++ module failed to load during process initialization.%n");
+    <Module>.?InitializedPerProcess@CurrentDomain@<CrtImplementationDetails>@@$$Q2W4Progress@2@A = (Progress) 1;
+    <Module>._initatexit_m();
+    <Module>._initterm_m((__FnPtr<void* ()>*) &<Module>.__xc_mp_a, (__FnPtr<void* ()>*) &<Module>.__xc_mp_z);
+    <Module>.?InitializedPerProcess@CurrentDomain@<CrtImplementationDetails>@@$$Q2W4Progress@2@A = (Progress) 2;
+    <Module>.?InitializedPerProcess@DefaultDomain@<CrtImplementationDetails>@@2_NA = true;
   }
 
   [DebuggerStepThrough]
   [SecurityCritical]
-  internal static unsafe void \u003CCrtImplementationDetails\u003E\u002ELanguageSupport\u002EInitializePerAppDomain(
+  internal static unsafe void <CrtImplementationDetails>.LanguageSupport.InitializePerAppDomain(
     [In] LanguageSupport* obj0)
   {
-    \u003CModule\u003E.gcroot\u003CSystem\u003A\u003AString\u0020\u005E\u003E\u002E\u003D((gcroot\u003CSystem\u003A\u003AString\u0020\u005E\u003E*) obj0, "The C++ module failed to load during appdomain initialization.\n");
-    \u003CModule\u003E.\u003FInitializedPerAppDomain\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2W4Progress\u00402\u0040A = (Progress) 1;
-    \u003CModule\u003E._initatexit_app_domain();
-    \u003CModule\u003E._initterm_m((__FnPtr<void* ()>*) &\u003CModule\u003E.__xc_ma_a, (__FnPtr<void* ()>*) &\u003CModule\u003E.__xc_ma_z);
-    \u003CModule\u003E.\u003FInitializedPerAppDomain\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2W4Progress\u00402\u0040A = (Progress) 2;
+    <Module>.gcroot<System::String ^>.=((gcroot<System::String ^>*) obj0, "The C++ module failed to load during appdomain initialization.%n");
+    <Module>.?InitializedPerAppDomain@CurrentDomain@<CrtImplementationDetails>@@$$Q2W4Progress@2@A = (Progress) 1;
+    <Module>._initatexit_app_domain();
+    <Module>._initterm_m((__FnPtr<void* ()>*) &<Module>.__xc_ma_a, (__FnPtr<void* ()>*) &<Module>.__xc_ma_z);
+    <Module>.?InitializedPerAppDomain@CurrentDomain@<CrtImplementationDetails>@@$$Q2W4Progress@2@A = (Progress) 2;
   }
 
   [SecurityCritical]
   [DebuggerStepThrough]
-  internal static unsafe void \u003CCrtImplementationDetails\u003E\u002ELanguageSupport\u002EInitializeUninitializer(
+  internal static unsafe void <CrtImplementationDetails>.LanguageSupport.InitializeUninitializer(
     [In] LanguageSupport* obj0)
   {
-    \u003CModule\u003E.gcroot\u003CSystem\u003A\u003AString\u0020\u005E\u003E\u002E\u003D((gcroot\u003CSystem\u003A\u003AString\u0020\u005E\u003E*) obj0, "The C++ module failed to load during registration for the unload events.\n");
-    \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002ERegisterModuleUninitializer(new EventHandler(\u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002ELanguageSupport\u002EDomainUnload));
+    <Module>.gcroot<System::String ^>.=((gcroot<System::String ^>*) obj0, "The C++ module failed to load during registration for the unload events.%n");
+    <Module>.<CrtImplementationDetails>.RegisterModuleUninitializer(new EventHandler(<Module>.<CrtImplementationDetails>.LanguageSupport.DomainUnload));
   }
 
   [DebuggerStepThrough]
   [ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
   [SecurityCritical]
-  internal static unsafe void \u003CCrtImplementationDetails\u003E\u002ELanguageSupport\u002E_Initialize(
+  internal static unsafe void <CrtImplementationDetails>.LanguageSupport._Initialize(
     [In] LanguageSupport* obj0)
   {
-    \u003CModule\u003E.\u003FIsDefaultDomain\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2_NA = AppDomain.CurrentDomain.IsDefaultAppDomain();
-    \u003CModule\u003E.\u003FEntered\u0040DefaultDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u00402_NA = \u003CModule\u003E.\u003FIsDefaultDomain\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2_NA || \u003CModule\u003E.\u003FEntered\u0040DefaultDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u00402_NA;
-    void* fiberPtrId = \u003CModule\u003E._getFiberPtrId();
+    <Module>.?IsDefaultDomain@CurrentDomain@<CrtImplementationDetails>@@$$Q2_NA = AppDomain.CurrentDomain.IsDefaultAppDomain();
+    <Module>.?Entered@DefaultDomain@<CrtImplementationDetails>@@2_NA = <Module>.?IsDefaultDomain@CurrentDomain@<CrtImplementationDetails>@@$$Q2_NA || <Module>.?Entered@DefaultDomain@<CrtImplementationDetails>@@2_NA;
+    void* fiberPtrId = <Module>._getFiberPtrId();
     int num1 = 0;
     int num2 = 0;
     int num3 = 0;
@@ -467,7 +461,7 @@ label_9:
         finally
         {
           // ISSUE: cast to a reference type
-          void* voidPtr = (void*) Interlocked.CompareExchange((long&) ref \u003CModule\u003E.__scrt_native_startup_lock, (long) fiberPtrId, 0L);
+          void* voidPtr = (void*) Interlocked.CompareExchange((long&) ref <Module>.__scrt_native_startup_lock, (long) fiberPtrId, 0L);
           if ((IntPtr) voidPtr == IntPtr.Zero)
             num2 = 1;
           else if (voidPtr == fiberPtrId)
@@ -477,193 +471,193 @@ label_9:
           }
         }
         if (num2 == 0)
-          \u003CModule\u003E.Sleep(1000U);
+          <Module>.Sleep(1000U);
       }
-      \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002ELanguageSupport\u002EInitializeVtables(obj0);
-      if (\u003CModule\u003E.\u003FIsDefaultDomain\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2_NA)
+      <Module>.<CrtImplementationDetails>.LanguageSupport.InitializeVtables(obj0);
+      if (<Module>.?IsDefaultDomain@CurrentDomain@<CrtImplementationDetails>@@$$Q2_NA)
       {
-        \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002ELanguageSupport\u002EInitializeNative(obj0);
-        \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002ELanguageSupport\u002EInitializePerProcess(obj0);
+        <Module>.<CrtImplementationDetails>.LanguageSupport.InitializeNative(obj0);
+        <Module>.<CrtImplementationDetails>.LanguageSupport.InitializePerProcess(obj0);
       }
       else
-        num3 = \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002EDefaultDomain\u002ENeedsInitialization() ? 1 : num3;
+        num3 = <Module>.<CrtImplementationDetails>.DefaultDomain.NeedsInitialization() ? 1 : num3;
     }
     finally
     {
       if (num1 == 0)
       {
         // ISSUE: cast to a reference type
-        Interlocked.Exchange((long&) ref \u003CModule\u003E.__scrt_native_startup_lock, 0L);
+        Interlocked.Exchange((long&) ref <Module>.__scrt_native_startup_lock, 0L);
       }
     }
     if (num3 != 0)
-      \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002ELanguageSupport\u002EInitializeDefaultAppDomain(obj0);
-    \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002ELanguageSupport\u002EInitializePerAppDomain(obj0);
-    \u003CModule\u003E.\u003FInitialized\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2HA = 1;
-    \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002ELanguageSupport\u002EInitializeUninitializer(obj0);
+      <Module>.<CrtImplementationDetails>.LanguageSupport.InitializeDefaultAppDomain(obj0);
+    <Module>.<CrtImplementationDetails>.LanguageSupport.InitializePerAppDomain(obj0);
+    <Module>.?Initialized@CurrentDomain@<CrtImplementationDetails>@@$$Q2HA = 1;
+    <Module>.<CrtImplementationDetails>.LanguageSupport.InitializeUninitializer(obj0);
   }
 
   [SecurityCritical]
-  internal static void \u003CCrtImplementationDetails\u003E\u002ELanguageSupport\u002EUninitializeAppDomain()
+  internal static void <CrtImplementationDetails>.LanguageSupport.UninitializeAppDomain()
   {
-    \u003CModule\u003E._app_exit_callback();
+    <Module>._app_exit_callback();
   }
 
   [SecurityCritical]
-  internal static unsafe int \u003CCrtImplementationDetails\u003E\u002ELanguageSupport\u002E_UninitializeDefaultDomain(
+  internal static unsafe int <CrtImplementationDetails>.LanguageSupport._UninitializeDefaultDomain(
     void* cookie)
   {
-    \u003CModule\u003E._exit_callback();
-    \u003CModule\u003E.\u003FInitializedPerProcess\u0040DefaultDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u00402_NA = false;
-    if (\u003CModule\u003E.\u003FInitializedNativeFromCCTOR\u0040DefaultDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u00402_NA)
+    <Module>._exit_callback();
+    <Module>.?InitializedPerProcess@DefaultDomain@<CrtImplementationDetails>@@2_NA = false;
+    if (<Module>.?InitializedNativeFromCCTOR@DefaultDomain@<CrtImplementationDetails>@@2_NA)
     {
-      \u003CModule\u003E._cexit();
-      \u003CModule\u003E.__scrt_current_native_startup_state = (__scrt_native_startup_state) 0;
-      \u003CModule\u003E.\u003FInitializedNativeFromCCTOR\u0040DefaultDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u00402_NA = false;
+      <Module>._cexit();
+      <Module>.__scrt_current_native_startup_state = (__scrt_native_startup_state) 0;
+      <Module>.?InitializedNativeFromCCTOR@DefaultDomain@<CrtImplementationDetails>@@2_NA = false;
     }
-    \u003CModule\u003E.\u003FInitializedNative\u0040DefaultDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u00402_NA = false;
+    <Module>.?InitializedNative@DefaultDomain@<CrtImplementationDetails>@@2_NA = false;
     return 0;
   }
 
   [SecurityCritical]
-  internal static unsafe void \u003CCrtImplementationDetails\u003E\u002ELanguageSupport\u002EUninitializeDefaultDomain()
+  internal static unsafe void <CrtImplementationDetails>.LanguageSupport.UninitializeDefaultDomain()
   {
-    if (!\u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002EDefaultDomain\u002ENeedsUninitialization())
+    if (!<Module>.<CrtImplementationDetails>.DefaultDomain.NeedsUninitialization())
       return;
     if (AppDomain.CurrentDomain.IsDefaultAppDomain())
     {
-      \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002ELanguageSupport\u002E_UninitializeDefaultDomain((void*) 0L);
+      <Module>.<CrtImplementationDetails>.LanguageSupport._UninitializeDefaultDomain((void*) 0L);
     }
     else
     {
       // ISSUE: cast to a function pointer type
-      \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002EDoCallBackInDefaultDomain((__FnPtr<int (void*)>) (IntPtr) \u003CModule\u003E.__unep\u0040\u003F_UninitializeDefaultDomain\u0040LanguageSupport\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024FCAJPEAX\u0040Z, (void*) 0L);
+      <Module>.<CrtImplementationDetails>.DoCallBackInDefaultDomain((__FnPtr<int (void*)>) (IntPtr) <Module>.__unep@?_UninitializeDefaultDomain@LanguageSupport@<CrtImplementationDetails>@@$$FCAJPEAX@Z, (void*) 0L);
     }
   }
 
   [ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
   [SecurityCritical]
   [PrePrepareMethod]
-  internal static void \u003CCrtImplementationDetails\u003E\u002ELanguageSupport\u002EDomainUnload(
+  internal static void <CrtImplementationDetails>.LanguageSupport.DomainUnload(
     object A_0,
     EventArgs A_1)
   {
-    if (\u003CModule\u003E.\u003FInitialized\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2HA == 0 || Interlocked.Exchange(ref \u003CModule\u003E.\u003FUninitialized\u0040CurrentDomain\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q2HA, 1) != 0)
+    if (<Module>.?Initialized@CurrentDomain@<CrtImplementationDetails>@@$$Q2HA == 0 || Interlocked.Exchange(ref <Module>.?Uninitialized@CurrentDomain@<CrtImplementationDetails>@@$$Q2HA, 1) != 0)
       return;
-    int num = Interlocked.Decrement(ref \u003CModule\u003E.\u003FCount\u0040AllDomains\u0040\u003CCrtImplementationDetails\u003E\u0040\u00402HA) == 0 ? 1 : 0;
-    \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002ELanguageSupport\u002EUninitializeAppDomain();
+    int num = Interlocked.Decrement(ref <Module>.?Count@AllDomains@<CrtImplementationDetails>@@2HA) == 0 ? 1 : 0;
+    <Module>.<CrtImplementationDetails>.LanguageSupport.UninitializeAppDomain();
     if ((byte) num == (byte) 0)
       return;
-    \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002ELanguageSupport\u002EUninitializeDefaultDomain();
+    <Module>.<CrtImplementationDetails>.LanguageSupport.UninitializeDefaultDomain();
   }
 
   [ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
   [SecurityCritical]
   [DebuggerStepThrough]
-  internal static unsafe void \u003CCrtImplementationDetails\u003E\u002ELanguageSupport\u002ECleanup(
+  internal static unsafe void <CrtImplementationDetails>.LanguageSupport.Cleanup(
     [In] LanguageSupport* obj0,
     Exception innerException)
   {
     try
     {
-      bool flag = Interlocked.Decrement(ref \u003CModule\u003E.\u003FCount\u0040AllDomains\u0040\u003CCrtImplementationDetails\u003E\u0040\u00402HA) == 0;
-      \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002ELanguageSupport\u002EUninitializeAppDomain();
+      bool flag = Interlocked.Decrement(ref <Module>.?Count@AllDomains@<CrtImplementationDetails>@@2HA) == 0;
+      <Module>.<CrtImplementationDetails>.LanguageSupport.UninitializeAppDomain();
       if (!flag)
         return;
-      \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002ELanguageSupport\u002EUninitializeDefaultDomain();
+      <Module>.<CrtImplementationDetails>.LanguageSupport.UninitializeDefaultDomain();
     }
     catch (Exception ex)
     {
-      \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002EThrowNestedModuleLoadException(innerException, ex);
+      <Module>.<CrtImplementationDetails>.ThrowNestedModuleLoadException(innerException, ex);
     }
     catch
     {
-      \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002EThrowNestedModuleLoadException(innerException, (Exception) null);
+      <Module>.<CrtImplementationDetails>.ThrowNestedModuleLoadException(innerException, (Exception) null);
     }
   }
 
   [SecurityCritical]
-  internal static unsafe LanguageSupport* \u003CCrtImplementationDetails\u003E\u002ELanguageSupport\u002E\u007Bctor\u007D(
+  internal static unsafe LanguageSupport* <CrtImplementationDetails>.LanguageSupport.{ctor}(
     [In] LanguageSupport* obj0)
   {
-    \u003CModule\u003E.gcroot\u003CSystem\u003A\u003AString\u0020\u005E\u003E\u002E\u007Bctor\u007D((gcroot\u003CSystem\u003A\u003AString\u0020\u005E\u003E*) obj0);
+    <Module>.gcroot<System::String ^>.{ctor}((gcroot<System::String ^>*) obj0);
     return obj0;
   }
 
   [SecurityCritical]
-  internal static unsafe void \u003CCrtImplementationDetails\u003E\u002ELanguageSupport\u002E\u007Bdtor\u007D(
+  internal static unsafe void <CrtImplementationDetails>.LanguageSupport.{dtor}(
     [In] LanguageSupport* obj0)
   {
-    \u003CModule\u003E.gcroot\u003CSystem\u003A\u003AString\u0020\u005E\u003E\u002E\u007Bdtor\u007D((gcroot\u003CSystem\u003A\u003AString\u0020\u005E\u003E*) obj0);
+    <Module>.gcroot<System::String ^>.{dtor}((gcroot<System::String ^>*) obj0);
   }
 
   [DebuggerStepThrough]
   [ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
   [SecurityCritical]
-  internal static unsafe void \u003CCrtImplementationDetails\u003E\u002ELanguageSupport\u002EInitialize(
+  internal static unsafe void <CrtImplementationDetails>.LanguageSupport.Initialize(
     [In] LanguageSupport* obj0)
   {
     bool flag = false;
     RuntimeHelpers.PrepareConstrainedRegions();
     try
     {
-      \u003CModule\u003E.gcroot\u003CSystem\u003A\u003AString\u0020\u005E\u003E\u002E\u003D((gcroot\u003CSystem\u003A\u003AString\u0020\u005E\u003E*) obj0, "The C++ module failed to load.\n");
+      <Module>.gcroot<System::String ^>.=((gcroot<System::String ^>*) obj0, "The C++ module failed to load.%n");
       RuntimeHelpers.PrepareConstrainedRegions();
       try
       {
       }
       finally
       {
-        Interlocked.Increment(ref \u003CModule\u003E.\u003FCount\u0040AllDomains\u0040\u003CCrtImplementationDetails\u003E\u0040\u00402HA);
+        Interlocked.Increment(ref <Module>.?Count@AllDomains@<CrtImplementationDetails>@@2HA);
         flag = true;
       }
-      \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002ELanguageSupport\u002E_Initialize(obj0);
+      <Module>.<CrtImplementationDetails>.LanguageSupport._Initialize(obj0);
     }
     catch (Exception ex)
     {
       if (flag)
-        \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002ELanguageSupport\u002ECleanup(obj0, ex);
-      \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002EThrowModuleLoadException(\u003CModule\u003E.gcroot\u003CSystem\u003A\u003AString\u0020\u005E\u003E\u002E\u002EPE\u0024AAVString\u0040System\u0040\u0040((gcroot\u003CSystem\u003A\u003AString\u0020\u005E\u003E*) obj0), ex);
+        <Module>.<CrtImplementationDetails>.LanguageSupport.Cleanup(obj0, ex);
+      <Module>.<CrtImplementationDetails>.ThrowModuleLoadException(<Module>.gcroot<System::String ^>..PE$AAVString@System@@((gcroot<System::String ^>*) obj0), ex);
     }
     catch
     {
       if (flag)
-        \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002ELanguageSupport\u002ECleanup(obj0, (Exception) null);
-      \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002EThrowModuleLoadException(\u003CModule\u003E.gcroot\u003CSystem\u003A\u003AString\u0020\u005E\u003E\u002E\u002EPE\u0024AAVString\u0040System\u0040\u0040((gcroot\u003CSystem\u003A\u003AString\u0020\u005E\u003E*) obj0), (Exception) null);
+        <Module>.<CrtImplementationDetails>.LanguageSupport.Cleanup(obj0, (Exception) null);
+      <Module>.<CrtImplementationDetails>.ThrowModuleLoadException(<Module>.gcroot<System::String ^>..PE$AAVString@System@@((gcroot<System::String ^>*) obj0), (Exception) null);
     }
   }
 
   [DebuggerStepThrough]
   [SecurityCritical]
-  static unsafe \u003CModule\u003E()
+  static unsafe <Module>()
   {
     LanguageSupport languageSupport;
-    \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002ELanguageSupport\u002E\u007Bctor\u007D(&languageSupport);
+    <Module>.<CrtImplementationDetails>.LanguageSupport.{ctor}(&languageSupport);
     // ISSUE: fault handler
     try
     {
-      \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002ELanguageSupport\u002EInitialize(&languageSupport);
+      <Module>.<CrtImplementationDetails>.LanguageSupport.Initialize(&languageSupport);
     }
     __fault
     {
       // ISSUE: method pointer
       // ISSUE: cast to a function pointer type
-      \u003CModule\u003E.___CxxCallUnwindDtor((__FnPtr<void (void*)>) __methodptr(\u003CCrtImplementationDetails\u003E\u002ELanguageSupport\u002E\u007Bdtor\u007D), (void*) &languageSupport);
+      <Module>.___CxxCallUnwindDtor((__FnPtr<void (void*)>) __methodptr(<CrtImplementationDetails>.LanguageSupport.{dtor}), (void*) &languageSupport);
     }
-    \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002ELanguageSupport\u002E\u007Bdtor\u007D(&languageSupport);
+    <Module>.<CrtImplementationDetails>.LanguageSupport.{dtor}(&languageSupport);
   }
 
   [SecuritySafeCritical]
-  internal static unsafe string gcroot\u003CSystem\u003A\u003AString\u0020\u005E\u003E\u002E\u002EPE\u0024AAVString\u0040System\u0040\u0040(
-    [In] gcroot\u003CSystem\u003A\u003AString\u0020\u005E\u003E* obj0)
+  internal static unsafe string gcroot<System::String ^>..PE$AAVString@System@@(
+    [In] gcroot<System::String ^>* obj0)
   {
     return (string) ((GCHandle) new IntPtr((void*) *(long*) obj0)).Target;
   }
 
   [SecurityCritical]
   [DebuggerStepThrough]
-  internal static unsafe gcroot\u003CSystem\u003A\u003AString\u0020\u005E\u003E* gcroot\u003CSystem\u003A\u003AString\u0020\u005E\u003E\u002E\u003D(
-    [In] gcroot\u003CSystem\u003A\u003AString\u0020\u005E\u003E* obj0,
+  internal static unsafe gcroot<System::String ^>* gcroot<System::String ^>.=(
+    [In] gcroot<System::String ^>* obj0,
     string t)
   {
     ((GCHandle) new IntPtr((void*) *(long*) obj0)).Target = (object) t;
@@ -672,8 +666,8 @@ label_9:
 
   [DebuggerStepThrough]
   [SecurityCritical]
-  internal static unsafe void gcroot\u003CSystem\u003A\u003AString\u0020\u005E\u003E\u002E\u007Bdtor\u007D(
-    [In] gcroot\u003CSystem\u003A\u003AString\u0020\u005E\u003E* obj0)
+  internal static unsafe void gcroot<System::String ^>.{dtor}(
+    [In] gcroot<System::String ^>* obj0)
   {
     ((GCHandle) new IntPtr((void*) *(long*) obj0)).Free();
     *(long*) obj0 = 0L;
@@ -681,8 +675,8 @@ label_9:
 
   [DebuggerStepThrough]
   [SecuritySafeCritical]
-  internal static unsafe gcroot\u003CSystem\u003A\u003AString\u0020\u005E\u003E* gcroot\u003CSystem\u003A\u003AString\u0020\u005E\u003E\u002E\u007Bctor\u007D(
-    [In] gcroot\u003CSystem\u003A\u003AString\u0020\u005E\u003E* obj0)
+  internal static unsafe gcroot<System::String ^>* gcroot<System::String ^>.{ctor}(
+    [In] gcroot<System::String ^>* obj0)
   {
     IntPtr num = (IntPtr) GCHandle.Alloc((object) null);
     *(long*) obj0 = (long) num.ToPointer();
@@ -691,104 +685,104 @@ label_9:
 
   [SecurityCritical]
   [DebuggerStepThrough]
-  internal static unsafe ValueType \u003CCrtImplementationDetails\u003E\u002EAtExitLock\u002E_handle()
+  internal static unsafe ValueType <CrtImplementationDetails>.AtExitLock._handle()
   {
-    return (IntPtr) \u003CModule\u003E.\u003F_lock\u0040AtExitLock\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q0PEAXEA != IntPtr.Zero ? (ValueType) GCHandle.FromIntPtr(new IntPtr(\u003CModule\u003E.\u003F_lock\u0040AtExitLock\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q0PEAXEA)) : (ValueType) null;
+    return (IntPtr) <Module>.?_lock@AtExitLock@<CrtImplementationDetails>@@$$Q0PEAXEA != IntPtr.Zero ? (ValueType) GCHandle.FromIntPtr(new IntPtr(<Module>.?_lock@AtExitLock@<CrtImplementationDetails>@@$$Q0PEAXEA)) : (ValueType) null;
   }
 
   [DebuggerStepThrough]
   [SecurityCritical]
-  internal static unsafe void \u003CCrtImplementationDetails\u003E\u002EAtExitLock\u002E_lock_Construct(
+  internal static unsafe void <CrtImplementationDetails>.AtExitLock._lock_Construct(
     object value)
   {
-    \u003CModule\u003E.\u003F_lock\u0040AtExitLock\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q0PEAXEA = (void*) 0L;
-    \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002EAtExitLock\u002E_lock_Set(value);
+    <Module>.?_lock@AtExitLock@<CrtImplementationDetails>@@$$Q0PEAXEA = (void*) 0L;
+    <Module>.<CrtImplementationDetails>.AtExitLock._lock_Set(value);
   }
 
   [DebuggerStepThrough]
   [SecurityCritical]
-  internal static unsafe void \u003CCrtImplementationDetails\u003E\u002EAtExitLock\u002E_lock_Set(
+  internal static unsafe void <CrtImplementationDetails>.AtExitLock._lock_Set(
     object value)
   {
-    ValueType valueType = \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002EAtExitLock\u002E_handle();
+    ValueType valueType = <Module>.<CrtImplementationDetails>.AtExitLock._handle();
     if (valueType == null)
-      \u003CModule\u003E.\u003F_lock\u0040AtExitLock\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q0PEAXEA = GCHandle.ToIntPtr(GCHandle.Alloc(value)).ToPointer();
+      <Module>.?_lock@AtExitLock@<CrtImplementationDetails>@@$$Q0PEAXEA = GCHandle.ToIntPtr(GCHandle.Alloc(value)).ToPointer();
     else
       ((GCHandle) valueType).Target = value;
   }
 
   [SecurityCritical]
   [DebuggerStepThrough]
-  internal static object \u003CCrtImplementationDetails\u003E\u002EAtExitLock\u002E_lock_Get()
+  internal static object <CrtImplementationDetails>.AtExitLock._lock_Get()
   {
-    ValueType valueType = \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002EAtExitLock\u002E_handle();
+    ValueType valueType = <Module>.<CrtImplementationDetails>.AtExitLock._handle();
     return valueType != null ? ((GCHandle) valueType).Target : (object) null;
   }
 
   [DebuggerStepThrough]
   [SecurityCritical]
-  internal static unsafe void \u003CCrtImplementationDetails\u003E\u002EAtExitLock\u002E_lock_Destruct()
+  internal static unsafe void <CrtImplementationDetails>.AtExitLock._lock_Destruct()
   {
-    ValueType valueType = \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002EAtExitLock\u002E_handle();
+    ValueType valueType = <Module>.<CrtImplementationDetails>.AtExitLock._handle();
     if (valueType == null)
       return;
     ((GCHandle) valueType).Free();
-    \u003CModule\u003E.\u003F_lock\u0040AtExitLock\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q0PEAXEA = (void*) 0L;
+    <Module>.?_lock@AtExitLock@<CrtImplementationDetails>@@$$Q0PEAXEA = (void*) 0L;
   }
 
   [SecurityCritical]
   [DebuggerStepThrough]
   [return: MarshalAs(UnmanagedType.U1)]
-  internal static bool \u003CCrtImplementationDetails\u003E\u002EAtExitLock\u002EIsInitialized()
+  internal static bool <CrtImplementationDetails>.AtExitLock.IsInitialized()
   {
-    return \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002EAtExitLock\u002E_lock_Get() != null;
+    return <Module>.<CrtImplementationDetails>.AtExitLock._lock_Get() != null;
   }
 
   [DebuggerStepThrough]
   [SecurityCritical]
-  internal static void \u003CCrtImplementationDetails\u003E\u002EAtExitLock\u002EAddRef()
+  internal static void <CrtImplementationDetails>.AtExitLock.AddRef()
   {
-    if (!\u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002EAtExitLock\u002EIsInitialized())
+    if (!<Module>.<CrtImplementationDetails>.AtExitLock.IsInitialized())
     {
-      \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002EAtExitLock\u002E_lock_Construct(new object());
-      \u003CModule\u003E.\u003F_ref_count\u0040AtExitLock\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q0HA = 0;
+      <Module>.<CrtImplementationDetails>.AtExitLock._lock_Construct(new object());
+      <Module>.?_ref_count@AtExitLock@<CrtImplementationDetails>@@$$Q0HA = 0;
     }
-    ++\u003CModule\u003E.\u003F_ref_count\u0040AtExitLock\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q0HA;
+    ++<Module>.?_ref_count@AtExitLock@<CrtImplementationDetails>@@$$Q0HA;
   }
 
   [SecurityCritical]
   [DebuggerStepThrough]
-  internal static void \u003CCrtImplementationDetails\u003E\u002EAtExitLock\u002ERemoveRef()
+  internal static void <CrtImplementationDetails>.AtExitLock.RemoveRef()
   {
-    \u003CModule\u003E.\u003F_ref_count\u0040AtExitLock\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q0HA += -1;
-    if (\u003CModule\u003E.\u003F_ref_count\u0040AtExitLock\u0040\u003CCrtImplementationDetails\u003E\u0040\u0040\u0024\u0024Q0HA != 0)
+    <Module>.?_ref_count@AtExitLock@<CrtImplementationDetails>@@$$Q0HA += -1;
+    if (<Module>.?_ref_count@AtExitLock@<CrtImplementationDetails>@@$$Q0HA != 0)
       return;
-    \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002EAtExitLock\u002E_lock_Destruct();
+    <Module>.<CrtImplementationDetails>.AtExitLock._lock_Destruct();
   }
 
   [SecurityCritical]
   [DebuggerStepThrough]
   [return: MarshalAs(UnmanagedType.U1)]
-  internal static bool \u003FA0xdf32f105\u002E__alloc_global_lock()
+  internal static bool ?A0xdf32f105.__alloc_global_lock()
   {
-    \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002EAtExitLock\u002EAddRef();
-    return \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002EAtExitLock\u002EIsInitialized();
+    <Module>.<CrtImplementationDetails>.AtExitLock.AddRef();
+    return <Module>.<CrtImplementationDetails>.AtExitLock.IsInitialized();
   }
 
   [SecurityCritical]
   [DebuggerStepThrough]
-  internal static void \u003FA0xdf32f105\u002E__dealloc_global_lock()
+  internal static void ?A0xdf32f105.__dealloc_global_lock()
   {
-    \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002EAtExitLock\u002ERemoveRef();
+    <Module>.<CrtImplementationDetails>.AtExitLock.RemoveRef();
   }
 
   [SecurityCritical]
   internal static unsafe void _exit_callback()
   {
-    if (\u003CModule\u003E.\u003FA0xdf32f105\u002E__exit_list_size == 0UL)
+    if (<Module>.?A0xdf32f105.__exit_list_size == 0UL)
       return;
-    __FnPtr<void ()>* local1 = (__FnPtr<void ()>*) \u003CModule\u003E.DecodePointer((void*) \u003CModule\u003E.\u003FA0xdf32f105\u002E__onexitbegin_m);
-    __FnPtr<void ()>* local2 = (__FnPtr<void ()>*) \u003CModule\u003E.DecodePointer((void*) \u003CModule\u003E.\u003FA0xdf32f105\u002E__onexitend_m);
+    __FnPtr<void ()>* local1 = (__FnPtr<void ()>*) <Module>.DecodePointer((void*) <Module>.?A0xdf32f105.__onexitbegin_m);
+    __FnPtr<void ()>* local2 = (__FnPtr<void ()>*) <Module>.DecodePointer((void*) <Module>.?A0xdf32f105.__onexitend_m);
     if ((IntPtr) local1 != -1L && (IntPtr) local1 != IntPtr.Zero && (IntPtr) local2 != IntPtr.Zero)
     {
       __FnPtr<void ()>* local3 = local1;
@@ -805,14 +799,14 @@ label_9:
             if (local2 < local1)
               goto label_7;
           }
-          while (*(long*) local2 == (IntPtr) \u003CModule\u003E.EncodePointer((void*) 0L));
-          void* voidPtr = \u003CModule\u003E.DecodePointer((void*) *(long*) local2);
-          *(long*) local2 = (long) \u003CModule\u003E.EncodePointer((void*) 0L);
+          while (*(long*) local2 == (IntPtr) <Module>.EncodePointer((void*) 0L));
+          void* voidPtr = <Module>.DecodePointer((void*) *(long*) local2);
+          *(long*) local2 = (long) <Module>.EncodePointer((void*) 0L);
           // ISSUE: cast to a function pointer type
           // ISSUE: function pointer call
           __calli((__FnPtr<void ()>) (IntPtr) voidPtr)();
-          local5 = (__FnPtr<void ()>*) \u003CModule\u003E.DecodePointer((void*) \u003CModule\u003E.\u003FA0xdf32f105\u002E__onexitbegin_m);
-          local6 = (__FnPtr<void ()>*) \u003CModule\u003E.DecodePointer((void*) \u003CModule\u003E.\u003FA0xdf32f105\u002E__onexitend_m);
+          local5 = (__FnPtr<void ()>*) <Module>.DecodePointer((void*) <Module>.?A0xdf32f105.__onexitbegin_m);
+          local6 = (__FnPtr<void ()>*) <Module>.DecodePointer((void*) <Module>.?A0xdf32f105.__onexitend_m);
         }
         while (local3 == local5 && local4 == local6);
         local3 = local5;
@@ -823,18 +817,18 @@ label_9:
 label_7:
       Marshal.FreeHGlobal(new IntPtr((void*) local1));
     }
-    \u003CModule\u003E.\u003FA0xdf32f105\u002E__dealloc_global_lock();
+    <Module>.?A0xdf32f105.__dealloc_global_lock();
   }
 
   [SecurityCritical]
   [DebuggerStepThrough]
   internal static unsafe int _initatexit_m()
   {
-    if (!\u003CModule\u003E.\u003FA0xdf32f105\u002E__alloc_global_lock())
+    if (!<Module>.?A0xdf32f105.__alloc_global_lock())
       return 0;
-    \u003CModule\u003E.\u003FA0xdf32f105\u002E__onexitbegin_m = (__FnPtr<void ()>*) \u003CModule\u003E.EncodePointer(Marshal.AllocHGlobal(256).ToPointer());
-    \u003CModule\u003E.\u003FA0xdf32f105\u002E__onexitend_m = \u003CModule\u003E.\u003FA0xdf32f105\u002E__onexitbegin_m;
-    \u003CModule\u003E.\u003FA0xdf32f105\u002E__exit_list_size = 32UL;
+    <Module>.?A0xdf32f105.__onexitbegin_m = (__FnPtr<void ()>*) <Module>.EncodePointer(Marshal.AllocHGlobal(256).ToPointer());
+    <Module>.?A0xdf32f105.__onexitend_m = <Module>.?A0xdf32f105.__onexitbegin_m;
+    <Module>.?A0xdf32f105.__exit_list_size = 32UL;
     return 1;
   }
 
@@ -842,11 +836,11 @@ label_7:
   [SecurityCritical]
   internal static unsafe int _initatexit_app_domain()
   {
-    if (\u003CModule\u003E.\u003FA0xdf32f105\u002E__alloc_global_lock())
+    if (<Module>.?A0xdf32f105.__alloc_global_lock())
     {
-      \u003CModule\u003E.__onexitbegin_app_domain = (__FnPtr<void ()>*) \u003CModule\u003E.EncodePointer(Marshal.AllocHGlobal(256).ToPointer());
-      \u003CModule\u003E.__onexitend_app_domain = \u003CModule\u003E.__onexitbegin_app_domain;
-      \u003CModule\u003E.__exit_list_size_app_domain = 32UL;
+      <Module>.__onexitbegin_app_domain = (__FnPtr<void ()>*) <Module>.EncodePointer(Marshal.AllocHGlobal(256).ToPointer());
+      <Module>.__onexitend_app_domain = <Module>.__onexitbegin_app_domain;
+      <Module>.__exit_list_size_app_domain = 32UL;
     }
     return 1;
   }
@@ -855,10 +849,10 @@ label_7:
   [HandleProcessCorruptedStateExceptions]
   internal static unsafe void _app_exit_callback()
   {
-    if (\u003CModule\u003E.__exit_list_size_app_domain == 0UL)
+    if (<Module>.__exit_list_size_app_domain == 0UL)
       return;
-    __FnPtr<void ()>* local1 = (__FnPtr<void ()>*) \u003CModule\u003E.DecodePointer((void*) \u003CModule\u003E.__onexitbegin_app_domain);
-    __FnPtr<void ()>* local2 = (__FnPtr<void ()>*) \u003CModule\u003E.DecodePointer((void*) \u003CModule\u003E.__onexitend_app_domain);
+    __FnPtr<void ()>* local1 = (__FnPtr<void ()>*) <Module>.DecodePointer((void*) <Module>.__onexitbegin_app_domain);
+    __FnPtr<void ()>* local2 = (__FnPtr<void ()>*) <Module>.DecodePointer((void*) <Module>.__onexitend_app_domain);
     try
     {
       if ((IntPtr) local1 == -1L || (IntPtr) local1 == IntPtr.Zero || (IntPtr) local2 == IntPtr.Zero)
@@ -875,16 +869,16 @@ label_7:
           {
             local2 -= 8L;
           }
-          while (local2 >= local1 && *(long*) local2 == (IntPtr) \u003CModule\u003E.EncodePointer((void*) 0L));
+          while (local2 >= local1 && *(long*) local2 == (IntPtr) <Module>.EncodePointer((void*) 0L));
           if (local2 >= local1)
           {
             // ISSUE: cast to a function pointer type
-            __FnPtr<void ()> local7 = (__FnPtr<void ()>) (IntPtr) \u003CModule\u003E.DecodePointer((void*) *(long*) local2);
-            *(long*) local2 = (long) \u003CModule\u003E.EncodePointer((void*) 0L);
+            __FnPtr<void ()> local7 = (__FnPtr<void ()>) (IntPtr) <Module>.DecodePointer((void*) *(long*) local2);
+            *(long*) local2 = (long) <Module>.EncodePointer((void*) 0L);
             // ISSUE: function pointer call
             __calli(local7)();
-            local5 = (__FnPtr<void ()>*) \u003CModule\u003E.DecodePointer((void*) \u003CModule\u003E.__onexitbegin_app_domain);
-            local6 = (__FnPtr<void ()>*) \u003CModule\u003E.DecodePointer((void*) \u003CModule\u003E.__onexitend_app_domain);
+            local5 = (__FnPtr<void ()>*) <Module>.DecodePointer((void*) <Module>.__onexitbegin_app_domain);
+            local6 = (__FnPtr<void ()>*) <Module>.DecodePointer((void*) <Module>.__onexitend_app_domain);
           }
           else
             goto label_12;
@@ -900,7 +894,7 @@ label_12:;
     finally
     {
       Marshal.FreeHGlobal(new IntPtr((void*) local1));
-      \u003CModule\u003E.\u003FA0xdf32f105\u002E__dealloc_global_lock();
+      <Module>.?A0xdf32f105.__dealloc_global_lock();
     }
   }
 
@@ -961,7 +955,7 @@ label_12:;
   }
 
   [DebuggerStepThrough]
-  internal static ModuleHandle \u003CCrtImplementationDetails\u003E\u002EThisModule\u002EHandle()
+  internal static ModuleHandle <CrtImplementationDetails>.ThisModule.Handle()
   {
     return typeof (ThisModule).Module.ModuleHandle;
   }
@@ -980,7 +974,7 @@ label_12:;
       {
         // ISSUE: cast to a function pointer type
         // ISSUE: function pointer call
-        void* voidPtr = __calli(\u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002EThisModule\u002EResolveMethod\u003Cvoid\u0020const\u0020\u002A\u0020__clrcall\u0028void\u0029\u003E((__FnPtr<void* ()>) (long) methodToken))();
+        void* voidPtr = __calli(<Module>.<CrtImplementationDetails>.ThisModule.ResolveMethod<void const * __clrcall(void)>((__FnPtr<void* ()>) (long) methodToken))();
       }
       pfbegin += 8L;
     }
@@ -989,11 +983,11 @@ label_12:;
 
   [SecurityCritical]
   [DebuggerStepThrough]
-  internal static unsafe __FnPtr<void* ()> \u003CCrtImplementationDetails\u003E\u002EThisModule\u002EResolveMethod\u003Cvoid\u0020const\u0020\u002A\u0020__clrcall\u0028void\u0029\u003E(
+  internal static unsafe __FnPtr<void* ()> <CrtImplementationDetails>.ThisModule.ResolveMethod<void const * __clrcall(void)>(
     __FnPtr<void* ()> methodToken)
   {
     // ISSUE: cast to a function pointer type
-    return (__FnPtr<void* ()>) (IntPtr) \u003CModule\u003E.\u003CCrtImplementationDetails\u003E\u002EThisModule\u002EHandle().ResolveMethodHandle((int) methodToken).GetFunctionPointer().ToPointer();
+    return (__FnPtr<void* ()>) (IntPtr) <Module>.<CrtImplementationDetails>.ThisModule.Handle().ResolveMethodHandle((int) methodToken).GetFunctionPointer().ToPointer();
   }
 
   [SecurityCritical]
@@ -1007,7 +1001,7 @@ label_12:;
       // ISSUE: function pointer call
       __calli(pDtor)(pThis);
     }
-    catch (Exception ex) when (\u003CModule\u003E.__FrameUnwindFilter((_EXCEPTION_POINTERS*) Marshal.GetExceptionPointers()) != 0)
+    catch (Exception ex) when (<Module>.__FrameUnwindFilter((_EXCEPTION_POINTERS*) Marshal.GetExceptionPointers()) != 0)
     {
     }
   }

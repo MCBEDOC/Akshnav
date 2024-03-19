@@ -1,10 +1,4 @@
-﻿// Decompiled with JetBrains decompiler
-// Type: mcenters.API
-// Assembly: MCenters, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-// MVID: 45CFC87E-86C0-4035-8A46-F8737ED6CA8B
-// Assembly location: C:\Users\Misi\Downloads\akshnav_3.exe
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
@@ -30,12 +24,12 @@ namespace mcenters
     public static void ShouldOpenBetaEdition([MarshalAs(UnmanagedType.U1)] bool val)
     {
       API.BetaEditionMode = val;
-      \u003CModule\u003E.IsBetaEditionTarget(val);
+      <Module>.IsBetaEditionTarget(val);
     }
 
     public static int Test() => 1;
 
-    public static int EnableDebug() => \u003CModule\u003E.EnableDebugPriv();
+    public static int EnableDebug() => <Module>.EnableDebugPriv();
 
     [return: MarshalAs(UnmanagedType.U1)]
     private static unsafe bool search(Process process, FileVersionInfo fileVersion)
@@ -44,12 +38,12 @@ namespace mcenters
       int moduleMemorySize = process.MainModule.ModuleMemorySize;
       Logger.AddLog("Reading Data Source", process.MainModule.ModuleName);
       IntPtr baseAddress = process.MainModule.BaseAddress;
-      int num1 = \u003CModule\u003E.SetDataSource(process.Id, baseAddress.ToPointer(), moduleMemorySize);
+      int num1 = <Module>.SetDataSource(process.Id, baseAddress.ToPointer(), moduleMemorySize);
       Logger.AddLog("Data Source Read bytes", num1.ToString());
       if (num1 != moduleMemorySize)
         return false;
       int num2 = -1;
-      int pos = (int) \u003CModule\u003E.TryFindValue(&num2);
+      int pos = (int) <Module>.TryFindValue(&num2);
       Logger.AddLog("Count", num2.ToString());
       if (num2 != 1)
         return false;
@@ -68,7 +62,7 @@ namespace mcenters
       bool flag2;
       try
       {
-        int processId = \u003CModule\u003E.LaunchApp();
+        int processId = <Module>.LaunchApp();
         Process process3 = processId == 0 ? process1 : Process.GetProcessById(processId);
         process2 = process3;
         if (API.appId == 0)
@@ -121,9 +115,9 @@ namespace mcenters
       }
       Patch patch = (Patch) null;
       API.SupportedVersions.TryGetValue(key, out patch);
-      \u003CModule\u003E.ChangePatchValues(patch.disableTrial, patch.enableTrial, patch.defaultvalue, patch.position);
+      <Module>.ChangePatchValues(patch.disableTrial, patch.enableTrial, patch.defaultvalue, patch.position);
       IntPtr baseAddress = process2.MainModule.BaseAddress;
-      switch (\u003CModule\u003E.ModifyApp(process2.Id, baseAddress.ToPointer(), trial, API.ignoreVerification))
+      switch (<Module>.ModifyApp(process2.Id, baseAddress.ToPointer(), trial, API.ignoreVerification))
       {
         case -4:
         case -3:
@@ -133,7 +127,7 @@ namespace mcenters
           Logger.AddError("Error Occured While Reading Memory");
           return PrepareResults.MemoryReadError;
         case 0:
-          Logger.AddError("Unknown Memory Patterns\nYou may be using unsupported version\nor using other mods");
+          Logger.AddError("Unknown Memory Patterns%nYou may be using unsupported version%nor using other mods");
           return PrepareResults.MemoryPatternError;
         case 1:
           API.ignoreVerification = true;
@@ -176,7 +170,7 @@ namespace mcenters
           if (!current.HasExited)
           {
             IntPtr baseAddress = current.MainModule.BaseAddress;
-            num = \u003CModule\u003E.IsValidApp(current.Id, baseAddress.ToPointer());
+            num = <Module>.IsValidApp(current.Id, baseAddress.ToPointer());
             switch (num)
             {
               case -2:
