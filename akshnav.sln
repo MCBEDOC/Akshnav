@@ -1,26 +1,21 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.7.34202.233
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCenters", "akshnav.csproj", "{665C2870-4EDA-4BF7-9C5C-070D5D5FBBE7}"
 EndProject
 Global
-  GlobalSection(SolutionNotes) = postSolution
-  EndGlobalSection
-  GlobalSection(SolutionConfiguration) = preSolution
-       ConfigName.0 = Debug
-       ConfigName.1 = Release
-  EndGlobalSection
-  GlobalSection(ProjectDependencies) = postSolution
-  EndGlobalSection
-  GlobalSection(ProjectConfiguration) = postSolution
-   {FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}.Debug.ActiveCfg = Debug|Any CPU
-   {FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}.Debug.Build.0 = Debug|Any CPU
-   {FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}.Release.ActiveCfg = Release|Any CPU
-   {FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}.Release.Build.0 = Release|Any CPU
-  EndGlobalSection
-  GlobalSection(ExtensibilityGlobals) = postSolution
-  EndGlobalSection
-  GlobalSection(ExtensibilityAddIns) = postSolution
-  EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{665C2870-4EDA-4BF7-9C5C-070D5D5FBBE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{665C2870-4EDA-4BF7-9C5C-070D5D5FBBE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{665C2870-4EDA-4BF7-9C5C-070D5D5FBBE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{665C2870-4EDA-4BF7-9C5C-070D5D5FBBE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 EndGlobal

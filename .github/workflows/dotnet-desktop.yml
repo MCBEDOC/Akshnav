@@ -26,4 +26,6 @@ jobs:
       uses: microsoft/setup-msbuild@v2
 
     - name: Compile app
-      run: msbuild akshnav.sln
+      run: |
+        msbuild /t:restore
+        dotnet build
