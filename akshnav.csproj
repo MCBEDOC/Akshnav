@@ -45,6 +45,7 @@
     <Reference Include="System.Configuration" />
     <Reference Include="PresentationFramework" />
     <Reference Include="PresentationCore" />
+    <Reference Include="Microsoft.NETFramework.ReferenceAssemblies" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="_003CModule_003E.cs" />
