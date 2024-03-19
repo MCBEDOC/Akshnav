@@ -8,6 +8,7 @@
     <AssemblyName>MCenters</AssemblyName>
     <ApplicationVersion>1.0.0.2</ApplicationVersion>
     <LangVersion>12.0</LangVersion>
+    <TargetFramework>v6</TargetFramework>
     <OutputType>exe</OutputType> <!-- TODO: Check if this is correct -->
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
