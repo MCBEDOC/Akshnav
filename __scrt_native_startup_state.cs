@@ -1,7 +1,9 @@
-﻿using System.Runtime.CompilerServices;
+﻿using System;
+using System.Runtime.CompilerServices;
 
-#nullable disable
+// Token: 0x0200000D RID: 13
 [NativeCppClass]
 internal enum __scrt_native_startup_state
 {
+
 }

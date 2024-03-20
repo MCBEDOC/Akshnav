@@ -2,11 +2,11 @@
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Token: 0x02000011 RID: 17
+// Token: 0x02000013 RID: 19
 [NativeCppClass]
 [StructLayout(LayoutKind.Sequential, Size = 8)]
-internal struct IUnknown
+internal struct gcroot<System::String\u0020^>
 {
-	// Token: 0x04000067 RID: 103
+	// Token: 0x04000069 RID: 105
 	private long <alignment\u0020member>;
 }

@@ -1,10 +1,12 @@
-﻿using System.Runtime.CompilerServices;
+﻿using System;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-#nullable disable
+// Token: 0x02000016 RID: 22
 [NativeCppClass]
 [StructLayout(LayoutKind.Sequential, Size = 8)]
 internal struct ICLRRuntimeHost
 {
-  private long <alignment member>;
+	// Token: 0x0400006B RID: 107
+	private long <alignment\u0020member>;
 }
