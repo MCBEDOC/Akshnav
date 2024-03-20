@@ -9,7 +9,6 @@
     <RootNamespace>MCenters</RootNamespace>
     <AssemblyName>MCenters</AssemblyName>
     <FileAlignment>512</FileAlignment>
-    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <ProjectTypeGuids>{60DC8134-EBA5-43B8-BCC9-BB4BC16C2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <ApplicationIcon>MCenters.ico</ApplicationIcon>
