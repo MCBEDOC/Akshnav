@@ -28,4 +28,4 @@ jobs:
     - name: Compile app
       run: |
         msbuild /t:restore
-        dotnet build
+        dotnet build MCenters.sln
